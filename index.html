@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Impacto da Agronomia no País</title>
+</head>
+<body>
+    <div class="caixa-principal">
+        <h1>Impacto da Agronomia no País</h1>
+        <table class="tabela-perguntas">
+            <thead>
+                <tr>
+                    <th>Pergunta</th>
+                    <th>Respostas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Como a agronomia contribui para a economia do país?</td>
+                    <td>
+                        <input type="radio" name="pergunta1" id="p1a1" value="Aumenta a produção de alimentos">
+                        <label for="p1a1">Aumenta a produção de alimentos</label><br>
+                        <input type="radio" name="pergunta1" id="p1a2" value="Diminui a exportação de produtos agrícolas">
+                        <label for="p1a2">Diminui a exportação de produtos agrícolas</label><br>
+                        <input type="radio" name="pergunta1" id="p1a3" value="Reduz o emprego no setor rural">
+                        <label for="p1a3">Reduz o emprego no setor rural</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Qual o papel da agronomia na sustentabilidade ambiental?</td>
+                    <td>
+                        <input type="radio" name="pergunta2" id="p2a1" value="Promove práticas agrícolas sustentáveis">
+                        <label for="p2a1">Promove práticas agrícolas sustentáveis</label><br>
+                        <input type="radio" name="pergunta2" id="p2a2" value="Aumenta o uso de pesticidas">
+                        <label for="p2a2">Aumenta o uso de pesticidas</label><br>
+                        <input type="radio" name="pergunta2" id="p2a3" value="Ignora a preservação ambiental">
+                        <label for="p2a3">Ignora a preservação ambiental</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>De que maneira a agronomia pode melhorar a segurança alimentar?</td>
+                    <td>
+                        <input type="radio" name="pergunta3" id="p3a1" value="Diversificando as culturas agrícolas">
+                        <label for="p3a1">Diversificando as culturas agrícolas</label><br>
+                        <input type="radio" name="pergunta3" id="p3a2" value="Reduzindo a produção agrícola">
+                        <label for="p3a2">Reduzindo a produção agrícola</label><br>
+                        <input type="radio" name="pergunta3" id="p3a3" value="Desincentivando a inovação tecnológica">
+                        <label for="p3a3">Desincentivando a inovação tecnológica</label>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="caixa-resultado">
+            <button id="verResultado">Ver Resultados</button>
+            <p class="texto-resultado"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
