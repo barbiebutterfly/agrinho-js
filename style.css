@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.caixa-principal {
+    width: 80%;
+    margin: auto;
+}
+
+.tabela-perguntas {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.tabela-perguntas th, .tabela-perguntas td {
+    border: 1px solid #7559c2;
+    padding: 10px;
+    text-align: left;
+}
+
+.tabela-perguntas th {
+    background-color: #635fdf;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.caixa-resultado {
+    margin-top: 20px;
+}
+
+#verResultado {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#verResultado:hover {
+    background-color: #84ad86;
+}
